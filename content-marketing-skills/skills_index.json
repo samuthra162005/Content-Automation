@@ -1,0 +1,1091 @@
+[
+  {
+    "id": "3d-web-experience",
+    "path": "content-marketing-skills/3d-web-experience",
+    "category": "website-architecture-performance",
+    "name": "3d-web-experience",
+    "description": "Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators, 3D portfolios, immersive websites, and bringing ...",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "ab-test-setup",
+    "path": "content-marketing-skills/ab-test-setup",
+    "category": "cro-analytics",
+    "name": "ab-test-setup",
+    "description": "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "accessibility-compliance-accessibility-audit",
+    "path": "content-marketing-skills/accessibility-compliance-accessibility-audit",
+    "category": "responsiveness-accessibility",
+    "name": "accessibility-compliance-accessibility-audit",
+    "description": "You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers, and provide remediation guidance.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "activecampaign-automation",
+    "path": "content-marketing-skills/activecampaign-automation",
+    "category": "email-marketing",
+    "name": "activecampaign-automation",
+    "description": "Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "aeo-answer-engine-optimization",
+    "path": "content-marketing-skills/aeo-answer-engine-optimization",
+    "category": "seo-geo",
+    "name": "aeo-answer-engine-optimization",
+    "description": "Optimize content for Answer Engine Optimization (AEO), Google AI Overviews (SGE), Bing Copilot, Featured Snippets, and Voice Search. Structure answers to win position zero and AI citation boxes.",
+    "risk": "safe",
+    "source": "custom"
+  },
+  {
+    "id": "algorithmic-art",
+    "path": "content-marketing-skills/algorithmic-art",
+    "category": "image-generation-visuals",
+    "name": "algorithmic-art",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields,...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "analytics-tracking",
+    "path": "content-marketing-skills/analytics-tracking",
+    "category": "cro-analytics",
+    "name": "analytics-tracking",
+    "description": "Design, audit, and improve analytics tracking systems that produce reliable,",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "app-builder",
+    "path": "content-marketing-skills/app-builder",
+    "category": "web-development",
+    "name": "app-builder",
+    "description": "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "architect-review",
+    "path": "content-marketing-skills/architect-review",
+    "category": "website-architecture-performance",
+    "name": "architect-review",
+    "description": "Master software architect specializing in modern architecture",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "architecture-decision-records",
+    "path": "content-marketing-skills/architecture-decision-records",
+    "category": "website-architecture-performance",
+    "name": "architecture-decision-records",
+    "description": "Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architect...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "beautiful-prose",
+    "path": "content-marketing-skills/beautiful-prose",
+    "category": "blog-writing",
+    "name": "beautiful-prose",
+    "description": "Hard-edged writing style contract for timeless, forceful English prose without AI tics",
+    "risk": "safe",
+    "source": "https://github.com/SHADOWPR0/beautiful_prose"
+  },
+  {
+    "id": "brevo-automation",
+    "path": "content-marketing-skills/brevo-automation",
+    "category": "email-marketing",
+    "name": "brevo-automation",
+    "description": "Automate Brevo (Sendinblue) tasks via Rube MCP (Composio): manage email campaigns, create/edit templates, track senders, and monitor campaign performance. Always search tools first for current sche...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "canva-automation",
+    "path": "content-marketing-skills/canva-automation",
+    "category": "image-generation-visuals",
+    "name": "canva-automation",
+    "description": "Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "canvas-design",
+    "path": "content-marketing-skills/canvas-design",
+    "category": "image-generation-visuals",
+    "name": "canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create ...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "coda-automation",
+    "path": "content-marketing-skills/coda-automation",
+    "category": "document-creation-presentations",
+    "name": "coda-automation",
+    "description": "Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "competitor-alternatives",
+    "path": "content-marketing-skills/competitor-alternatives",
+    "category": "digital-marketing",
+    "name": "competitor-alternatives",
+    "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'compa...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "confluence-automation",
+    "path": "content-marketing-skills/confluence-automation",
+    "category": "document-creation-presentations",
+    "name": "confluence-automation",
+    "description": "Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "content-creator",
+    "path": "content-marketing-skills/content-creator",
+    "category": "content-creation",
+    "name": "content-creator",
+    "description": "Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creati...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "content-marketer",
+    "path": "content-marketing-skills/content-marketer",
+    "category": "content-creation",
+    "name": "content-marketer",
+    "description": "Elite content marketing strategist specializing in AI-powered",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "convertkit-automation",
+    "path": "content-marketing-skills/convertkit-automation",
+    "category": "email-marketing",
+    "name": "convertkit-automation",
+    "description": "Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "copy-editing",
+    "path": "content-marketing-skills/copy-editing",
+    "category": "content-creation",
+    "name": "copy-editing",
+    "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this ...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "copywriting",
+    "path": "content-marketing-skills/copywriting",
+    "category": "content-creation",
+    "name": "copywriting",
+    "description": "Use this skill when writing, rewriting, or improving marketing copy",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "core-web-vitals-seo-ranking",
+    "path": "content-marketing-skills/core-web-vitals-seo-ranking",
+    "category": "seo-geo",
+    "name": "core-web-vitals-seo-ranking",
+    "description": "Audit and optimize Google Core Web Vitals (INP, LCP, CLS, TTFB) and technical page experience ranking factors to maximize crawl efficiency and search rankings.",
+    "risk": "safe",
+    "source": "custom"
+  },
+  {
+    "id": "daily-news-report",
+    "path": "content-marketing-skills/daily-news-report",
+    "category": "content-creation",
+    "name": "daily-news-report",
+    "description": "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "data-storytelling",
+    "path": "content-marketing-skills/data-storytelling",
+    "category": "content-creation",
+    "name": "data-storytelling",
+    "description": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive present...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "deep-research",
+    "path": "content-marketing-skills/deep-research",
+    "category": "content-creation",
+    "name": "deep-research",
+    "description": "Execute autonomous multi-step research using Google Gemini Deep Research Agent. Use for: market analysis, competitive landscaping, literature reviews, technical research, due diligence. Takes 2-10 ...",
+    "risk": "safe",
+    "source": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research"
+  },
+  {
+    "id": "digital-pr-link-building",
+    "path": "content-marketing-skills/digital-pr-link-building",
+    "category": "digital-marketing",
+    "name": "digital-pr-link-building",
+    "description": "Acquire high-authority editorial backlinks, brand mentions, and media coverage through Digital PR, original data studies, journalist outreach, and linkable assets.",
+    "risk": "safe",
+    "source": "custom"
+  },
+  {
+    "id": "doc-coauthoring",
+    "path": "content-marketing-skills/doc-coauthoring",
+    "category": "document-creation-presentations",
+    "name": "doc-coauthoring",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This ...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "docs-architect",
+    "path": "content-marketing-skills/docs-architect",
+    "category": "document-creation-presentations",
+    "name": "docs-architect",
+    "description": "Creates comprehensive technical documentation from existing",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "documentation-templates",
+    "path": "content-marketing-skills/documentation-templates",
+    "category": "document-creation-presentations",
+    "name": "documentation-templates",
+    "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "docx-official",
+    "path": "content-marketing-skills/docx-official",
+    "category": "document-creation-presentations",
+    "name": "docx-official",
+    "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional document...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "email-sequence",
+    "path": "content-marketing-skills/email-sequence",
+    "category": "email-marketing",
+    "name": "email-sequence",
+    "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \\\"email sequence,\\\" \\\"drip campa...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "email-systems",
+    "path": "content-marketing-skills/email-systems",
+    "category": "email-marketing",
+    "name": "email-systems",
+    "description": "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill cov...",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "fal-generate",
+    "path": "content-marketing-skills/fal-generate",
+    "category": "image-generation-visuals",
+    "name": "fal-generate",
+    "description": "Generate images and videos using fal.ai AI models",
+    "risk": "safe",
+    "source": "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-generate/SKILL.md"
+  },
+  {
+    "id": "form-cro",
+    "path": "content-marketing-skills/form-cro",
+    "category": "cro-analytics",
+    "name": "form-cro",
+    "description": "Optimize any form that is NOT signup or account registration — including lead",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "free-tool-strategy",
+    "path": "content-marketing-skills/free-tool-strategy",
+    "category": "digital-marketing",
+    "name": "free-tool-strategy",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \\u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \\\"engineering as mar...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "frontend-design",
+    "path": "content-marketing-skills/frontend-design",
+    "category": "web-design-ui-ux",
+    "name": "frontend-design",
+    "description": "Create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboard...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "frontend-developer",
+    "path": "content-marketing-skills/frontend-developer",
+    "category": "web-development",
+    "name": "frontend-developer",
+    "description": "Build React components, implement responsive layouts, and handle",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "frontend-slides",
+    "path": "content-marketing-skills/frontend-slides",
+    "category": "document-creation-presentations",
+    "name": "frontend-slides",
+    "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a...",
+    "risk": "safe",
+    "source": "https://github.com/zarazhangrui/frontend-slides"
+  },
+  {
+    "id": "frontend-ui-dark-ts",
+    "path": "content-marketing-skills/frontend-ui-dark-ts",
+    "category": "web-design-ui-ux",
+    "name": "frontend-ui-dark-ts",
+    "description": "Build dark-themed React applications using Tailwind CSS with custom theming, glassmorphism effects, and Framer Motion animations. Use when creating dashboards, admin panels, or data-rich interfaces...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "geo-fundamentals",
+    "path": "content-marketing-skills/geo-fundamentals",
+    "category": "seo-geo",
+    "name": "geo-fundamentals",
+    "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "google-analytics-automation",
+    "path": "content-marketing-skills/google-analytics-automation",
+    "category": "cro-analytics",
+    "name": "google-analytics-automation",
+    "description": "Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "googlesheets-automation",
+    "path": "content-marketing-skills/googlesheets-automation",
+    "category": "document-creation-presentations",
+    "name": "googlesheets-automation",
+    "description": "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "humanized-blog-writing",
+    "path": "content-marketing-skills/humanized-blog-writing",
+    "category": "blog-writing",
+    "name": "humanized-blog-writing",
+    "description": "Write humanized, authentic, engaging blog posts that avoid AI clichés, robotic cadence, and pass AI detectors naturally. Features burstiness, varied sentence lengths, natural voice inflection, real-world examples, and E-E-A-T alignment.",
+    "risk": "safe",
+    "source": "community"
+  },
+  {
+    "id": "imagen",
+    "path": "content-marketing-skills/imagen",
+    "category": "image-generation-visuals",
+    "name": "imagen",
+    "description": "source: \"https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen\"",
+    "risk": "safe",
+    "source": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen"
+  },
+  {
+    "id": "instagram-automation",
+    "path": "content-marketing-skills/instagram-automation",
+    "category": "social-media-marketing",
+    "name": "instagram-automation",
+    "description": "Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "interactive-portfolio",
+    "path": "content-marketing-skills/interactive-portfolio",
+    "category": "website-architecture-performance",
+    "name": "interactive-portfolio",
+    "description": "Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios,...",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "internal-comms-anthropic",
+    "path": "content-marketing-skills/internal-comms-anthropic",
+    "category": "content-creation",
+    "name": "internal-comms-anthropic",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal ...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "internal-comms-community",
+    "path": "content-marketing-skills/internal-comms-community",
+    "category": "content-creation",
+    "name": "internal-comms-community",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal ...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "klaviyo-automation",
+    "path": "content-marketing-skills/klaviyo-automation",
+    "category": "email-marketing",
+    "name": "klaviyo-automation",
+    "description": "Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "last30days",
+    "path": "content-marketing-skills/last30days",
+    "category": "content-creation",
+    "name": "last30days",
+    "description": "Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "launch-strategy",
+    "path": "content-marketing-skills/launch-strategy",
+    "category": "digital-marketing",
+    "name": "launch-strategy",
+    "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,'...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "llm-citation-geo-optimizer",
+    "path": "content-marketing-skills/llm-citation-geo-optimizer",
+    "category": "seo-geo",
+    "name": "llm-citation-geo-optimizer",
+    "description": "Generative Engine Optimization (GEO) & LLM Citation Strategy. Optimize content to maximize citation frequency, brand mentions, and RAG retrieval in ChatGPT, SearchGPT, Perplexity AI, Claude, and Gemini.",
+    "risk": "safe",
+    "source": "custom"
+  },
+  {
+    "id": "mailchimp-automation",
+    "path": "content-marketing-skills/mailchimp-automation",
+    "category": "email-marketing",
+    "name": "mailchimp-automation",
+    "description": "Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "marketing-ideas",
+    "path": "content-marketing-skills/marketing-ideas",
+    "category": "digital-marketing",
+    "name": "marketing-ideas",
+    "description": "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "marketing-psychology",
+    "path": "content-marketing-skills/marketing-psychology",
+    "category": "digital-marketing",
+    "name": "marketing-psychology",
+    "description": "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "mixpanel-automation",
+    "path": "content-marketing-skills/mixpanel-automation",
+    "category": "cro-analytics",
+    "name": "mixpanel-automation",
+    "description": "Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "mobile-design",
+    "path": "content-marketing-skills/mobile-design",
+    "category": "responsiveness-accessibility",
+    "name": "mobile-design",
+    "description": "Mobile-first design and engineering doctrine for iOS and Android apps. Covers touch interaction, performance, platform conventions, offline behavior, and mobile-specific decision-making. Teaches pr...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "nextjs-app-router-patterns",
+    "path": "content-marketing-skills/nextjs-app-router-patterns",
+    "category": "web-development",
+    "name": "nextjs-app-router-patterns",
+    "description": "Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Serve...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "nextjs-best-practices",
+    "path": "content-marketing-skills/nextjs-best-practices",
+    "category": "web-development",
+    "name": "nextjs-best-practices",
+    "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "onboarding-cro",
+    "path": "content-marketing-skills/onboarding-cro",
+    "category": "cro-analytics",
+    "name": "onboarding-cro",
+    "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \\\"onboarding flow,\\\" \\\"activation rate,\\\" \\\"u...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "page-cro",
+    "path": "content-marketing-skills/page-cro",
+    "category": "cro-analytics",
+    "name": "page-cro",
+    "description": "Analyze and optimize individual pages for conversion performance.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "paid-ads",
+    "path": "content-marketing-skills/paid-ads",
+    "category": "digital-marketing",
+    "name": "paid-ads",
+    "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' '...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "paywall-upgrade-cro",
+    "path": "content-marketing-skills/paywall-upgrade-cro",
+    "category": "cro-analytics",
+    "name": "paywall-upgrade-cro",
+    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \\\"paywall,\\\" \\\"upgrade screen,\\\" \\\"upgrade modal,...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "pdf-official",
+    "path": "content-marketing-skills/pdf-official",
+    "category": "document-creation-presentations",
+    "name": "pdf-official",
+    "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmaticall...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "popup-cro",
+    "path": "content-marketing-skills/popup-cro",
+    "category": "cro-analytics",
+    "name": "popup-cro",
+    "description": "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "postmark-automation",
+    "path": "content-marketing-skills/postmark-automation",
+    "category": "email-marketing",
+    "name": "postmark-automation",
+    "description": "Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "pptx-official",
+    "path": "content-marketing-skills/pptx-official",
+    "category": "document-creation-presentations",
+    "name": "pptx-official",
+    "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layo...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "pricing-strategy",
+    "path": "content-marketing-skills/pricing-strategy",
+    "category": "digital-marketing",
+    "name": "pricing-strategy",
+    "description": "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "programmatic-seo",
+    "path": "content-marketing-skills/programmatic-seo",
+    "category": "seo-geo",
+    "name": "programmatic-seo",
+    "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "radix-ui-design-system",
+    "path": "content-marketing-skills/radix-ui-design-system",
+    "category": "web-design-ui-ux",
+    "name": "radix-ui-design-system",
+    "description": "Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "react-best-practices",
+    "path": "content-marketing-skills/react-best-practices",
+    "category": "web-development",
+    "name": "react-best-practices",
+    "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance pat...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "react-patterns",
+    "path": "content-marketing-skills/react-patterns",
+    "category": "web-development",
+    "name": "react-patterns",
+    "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "react-state-management",
+    "path": "content-marketing-skills/react-state-management",
+    "category": "web-development",
+    "name": "react-state-management",
+    "description": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "react-ui-patterns",
+    "path": "content-marketing-skills/react-ui-patterns",
+    "category": "web-development",
+    "name": "react-ui-patterns",
+    "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "reddit-automation",
+    "path": "content-marketing-skills/reddit-automation",
+    "category": "social-media-marketing",
+    "name": "reddit-automation",
+    "description": "Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "referral-program",
+    "path": "content-marketing-skills/referral-program",
+    "category": "digital-marketing",
+    "name": "referral-program",
+    "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "sales-automator",
+    "path": "content-marketing-skills/sales-automator",
+    "category": "email-marketing",
+    "name": "sales-automator",
+    "description": "Draft cold emails, follow-ups, and proposal templates. Creates",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "schema-markup",
+    "path": "content-marketing-skills/schema-markup",
+    "category": "seo-geo",
+    "name": "schema-markup",
+    "description": "Design, validate, and optimize schema.org structured data for eligibility,",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "screenshots",
+    "path": "content-marketing-skills/screenshots",
+    "category": "image-generation-visuals",
+    "name": "screenshots",
+    "description": "Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or documentation.",
+    "risk": "safe",
+    "source": "https://github.com/Shpigford/skills/tree/main/screenshots"
+  },
+  {
+    "id": "scroll-experience",
+    "path": "content-marketing-skills/scroll-experience",
+    "category": "content-creation",
+    "name": "scroll-experience",
+    "description": "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product p...",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "sendgrid-automation",
+    "path": "content-marketing-skills/sendgrid-automation",
+    "category": "email-marketing",
+    "name": "sendgrid-automation",
+    "description": "Automate SendGrid email operations including sending emails, managing contacts/lists, sender identities, templates, and analytics via Rube MCP (Composio). Always search tools first for current sche...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "senior-fullstack",
+    "path": "content-marketing-skills/senior-fullstack",
+    "category": "web-development",
+    "name": "senior-fullstack",
+    "description": "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architec...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-audit",
+    "path": "content-marketing-skills/seo-audit",
+    "category": "seo-geo",
+    "name": "seo-audit",
+    "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings,",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-authority-builder",
+    "path": "content-marketing-skills/seo-authority-builder",
+    "category": "seo-geo",
+    "name": "seo-authority-builder",
+    "description": "Analyzes content for E-E-A-T signals and suggests improvements to",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-cannibalization-detector",
+    "path": "content-marketing-skills/seo-cannibalization-detector",
+    "category": "seo-geo",
+    "name": "seo-cannibalization-detector",
+    "description": "Analyzes multiple provided pages to identify keyword overlap and",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-content-auditor",
+    "path": "content-marketing-skills/seo-content-auditor",
+    "category": "seo-geo",
+    "name": "seo-content-auditor",
+    "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-content-planner",
+    "path": "content-marketing-skills/seo-content-planner",
+    "category": "seo-geo",
+    "name": "seo-content-planner",
+    "description": "Creates comprehensive content outlines and topic clusters for SEO.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-content-refresher",
+    "path": "content-marketing-skills/seo-content-refresher",
+    "category": "seo-geo",
+    "name": "seo-content-refresher",
+    "description": "Identifies outdated elements in provided content and suggests",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-content-writer",
+    "path": "content-marketing-skills/seo-content-writer",
+    "category": "seo-geo",
+    "name": "seo-content-writer",
+    "description": "Writes SEO-optimized content based on provided keywords and topic",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-fundamentals",
+    "path": "content-marketing-skills/seo-fundamentals",
+    "category": "seo-geo",
+    "name": "seo-fundamentals",
+    "description": "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations,",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-keyword-strategist",
+    "path": "content-marketing-skills/seo-keyword-strategist",
+    "category": "seo-geo",
+    "name": "seo-keyword-strategist",
+    "description": "Analyzes keyword usage in provided content, calculates density,",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-meta-optimizer",
+    "path": "content-marketing-skills/seo-meta-optimizer",
+    "category": "seo-geo",
+    "name": "seo-meta-optimizer",
+    "description": "Creates optimized meta titles, descriptions, and URL suggestions",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-snippet-hunter",
+    "path": "content-marketing-skills/seo-snippet-hunter",
+    "category": "seo-geo",
+    "name": "seo-snippet-hunter",
+    "description": "Formats content to be eligible for featured snippets and SERP",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "seo-structure-architect",
+    "path": "content-marketing-skills/seo-structure-architect",
+    "category": "seo-geo",
+    "name": "seo-structure-architect",
+    "description": "Analyzes and optimizes content structure including header",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "shopify-automation",
+    "path": "content-marketing-skills/shopify-automation",
+    "category": "cro-analytics",
+    "name": "shopify-automation",
+    "description": "Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "signup-flow-cro",
+    "path": "content-marketing-skills/signup-flow-cro",
+    "category": "cro-analytics",
+    "name": "signup-flow-cro",
+    "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \\\"signup conversions,\\\" \\\"registration friction,\\\" \\\"signup...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "slack-gif-creator",
+    "path": "content-marketing-skills/slack-gif-creator",
+    "category": "image-generation-visuals",
+    "name": "slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \\\"...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "social-content",
+    "path": "content-marketing-skills/social-content",
+    "category": "digital-marketing",
+    "name": "social-content",
+    "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "software-architecture",
+    "path": "content-marketing-skills/software-architecture",
+    "category": "website-architecture-performance",
+    "name": "software-architecture",
+    "description": "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "stitch-ui-design",
+    "path": "content-marketing-skills/stitch-ui-design",
+    "category": "web-design-ui-ux",
+    "name": "stitch-ui-design",
+    "description": "Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app interfaces, generate mobile/web designs, or needs help cra...",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "tailwind-design-system",
+    "path": "content-marketing-skills/tailwind-design-system",
+    "category": "web-design-ui-ux",
+    "name": "tailwind-design-system",
+    "description": "Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "tailwind-patterns",
+    "path": "content-marketing-skills/tailwind-patterns",
+    "category": "web-design-ui-ux",
+    "name": "tailwind-patterns",
+    "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "theme-factory",
+    "path": "content-marketing-skills/theme-factory",
+    "category": "document-creation-presentations",
+    "name": "theme-factory",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifac...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "tiktok-automation",
+    "path": "content-marketing-skills/tiktok-automation",
+    "category": "social-media-marketing",
+    "name": "tiktok-automation",
+    "description": "Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content, and view user profiles/stats. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "topical-authority-cluster-builder",
+    "path": "content-marketing-skills/topical-authority-cluster-builder",
+    "category": "seo-geo",
+    "name": "topical-authority-cluster-builder",
+    "description": "Build semantic topic clusters, hub-and-spoke pillar page architectures, and internal linking graphs to dominate Google rankings through comprehensive topical authority.",
+    "risk": "safe",
+    "source": "custom"
+  },
+  {
+    "id": "tutorial-engineer",
+    "path": "content-marketing-skills/tutorial-engineer",
+    "category": "blog-writing",
+    "name": "tutorial-engineer",
+    "description": "Creates step-by-step tutorials and educational content from code.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "twitter-automation",
+    "path": "content-marketing-skills/twitter-automation",
+    "category": "social-media-marketing",
+    "name": "twitter-automation",
+    "description": "Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "ui-ux-designer",
+    "path": "content-marketing-skills/ui-ux-designer",
+    "category": "web-design-ui-ux",
+    "name": "ui-ux-designer",
+    "description": "Create interface designs, wireframes, and design systems. Masters",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "ui-ux-pro-max",
+    "path": "content-marketing-skills/ui-ux-pro-max",
+    "category": "web-design-ui-ux",
+    "name": "ui-ux-pro-max",
+    "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, cr...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "ui-visual-validator",
+    "path": "content-marketing-skills/ui-visual-validator",
+    "category": "responsiveness-accessibility",
+    "name": "ui-visual-validator",
+    "description": "Rigorous visual validation expert specializing in UI testing,",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "viral-generator-builder",
+    "path": "content-marketing-skills/viral-generator-builder",
+    "category": "digital-marketing",
+    "name": "viral-generator-builder",
+    "description": "Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanic...",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "wcag-audit-patterns",
+    "path": "content-marketing-skills/wcag-audit-patterns",
+    "category": "responsiveness-accessibility",
+    "name": "wcag-audit-patterns",
+    "description": "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing ac...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "web-artifacts-builder",
+    "path": "content-marketing-skills/web-artifacts-builder",
+    "category": "web-development",
+    "name": "web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state ma...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "web-design-guidelines",
+    "path": "content-marketing-skills/web-design-guidelines",
+    "category": "web-design-ui-ux",
+    "name": "web-design-guidelines",
+    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \\\\\\\"review my UI\\\\\\\", \\\\\\\"check accessibility\\\\\\\", \\\\\\\"audit design\\\\\\\", \\\\\\\"review UX\\\\\\\", or \\\\\\\"check my site aga...",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "web-performance-optimization",
+    "path": "content-marketing-skills/web-performance-optimization",
+    "category": "website-architecture-performance",
+    "name": "web-performance-optimization",
+    "description": "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "webflow-automation",
+    "path": "content-marketing-skills/webflow-automation",
+    "category": "content-creation",
+    "name": "webflow-automation",
+    "description": "Automate Webflow CMS collections, site publishing, page management, asset uploads, and ecommerce orders via Rube MCP (Composio). Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "x-article-publisher-skill",
+    "path": "content-marketing-skills/x-article-publisher-skill",
+    "category": "blog-writing",
+    "name": "x-article-publisher-skill",
+    "description": "Publish articles to X/Twitter",
+    "risk": "safe",
+    "source": "https://github.com/wshuyi/x-article-publisher-skill"
+  },
+  {
+    "id": "xlsx-official",
+    "path": "content-marketing-skills/xlsx-official",
+    "category": "document-creation-presentations",
+    "name": "xlsx-official",
+    "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, ....",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "youtube-automation",
+    "path": "content-marketing-skills/youtube-automation",
+    "category": "social-media-marketing",
+    "name": "youtube-automation",
+    "description": "Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "youtube-summarizer",
+    "path": "content-marketing-skills/youtube-summarizer",
+    "category": "content-creation",
+    "name": "youtube-summarizer",
+    "description": "Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks",
+    "risk": "safe",
+    "source": "community"
+  }
+]
