@@ -1,1 +1,13 @@
 .agents/skills
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Scratch Scripts
+testing_scripts/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
