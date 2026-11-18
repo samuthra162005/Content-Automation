@@ -270,6 +270,73 @@ function convertMarkdownToDocxXml(mdText, blogDir, rels, mediaFiles, relIdCounte
       continue;
     }
 
+    // Numbered list item
+    const numMatch = line.match(/^(\d+\.\s+)(.*)/);
+    if (numMatch) {
+      const numLabel = numMatch[1];
+      const rest = numMatch[2];
+      const runs = parseMarkdownRuns(rest, rels, relIdCounter);
+      bodyXml += `<w:p><w:pPr><w:ind w:left="420" w:hanging="280"/><w:spacing w:after="100" w:line="276" w:lineRule="auto"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:b/><w:sz w:val="24"/></w:rPr><w:t xml:space="preserve">${escapeXml(numLabel)}</w:t></w:r>${runs}</w:p>`;
+      continue;
+    }
+
+    // Callout Box
+    if (line.startsWith('>')) {
+      const calloutText = line.replace(/^>\s*/, '').trim();
+      const runs = parseMarkdownRuns(calloutText, rels, relIdCounter);
+      bodyXml += `<w:p><w:pPr><w:pBdr><w:left w:val="single" w:sz="24" w:space="15" w:color="2563EB"/></w:pBdr><w:shd w:val="clear" w:color="auto" w:fill="F0F9FF"/><w:ind w:left="240" w:right="120"/><w:spacing w:before="140" w:after="160" w:line="276" w:lineRule="auto"/></w:pPr>${runs}</w:p>`;
+      continue;
+    }
+
+    // Markdown Table
+    if (line.startsWith('|') && line.endsWith('|')) {
+      const tableLines = [];
+      while (i < lines.length && lines[i].trim().startsWith('|') && lines[i].trim().endsWith('|')) {
+        const tLine = lines[i].trim();
+        // Skip separator line |---|---|
+        if (!/^\|[\s\-:]+(\|[\s\-:]+)+\|$/.test(tLine)) {
+          tableLines.push(tLine);
+        }
+        i++;
+      }
+      i--; // Rewind one because outer loop increments
+
+      if (tableLines.length > 0) {
+        const headerRow = tableLines[0];
+        const dataRows = tableLines.slice(1);
+        const headerCells = headerRow.split('|').map(c => c.trim()).filter((c, idx, arr) => idx > 0 && idx < arr.length - 1);
+        const colCount = Math.max(1, headerCells.length);
+        const totalW = 9360;
+        const colW = Math.floor(totalW / colCount);
+
+        let tblXml = `<w:tbl><w:tblPr><w:tblW w:w="${totalW}" w:type="dxa"/><w:jc w:val="center"/><w:tblBorders><w:top w:val="single" w:sz="6" w:space="0" w:color="CBD5E1"/><w:bottom w:val="single" w:sz="6" w:space="0" w:color="CBD5E1"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="E2E8F0"/><w:insideV w:val="none"/><w:left w:val="none"/><w:right w:val="none"/></w:tblBorders></w:tblPr>`;
+
+        // Header Row
+        tblXml += `<w:tr><w:trPr><w:tblHeader/></w:trPr>`;
+        headerCells.forEach(cell => {
+          const runs = parseMarkdownRuns(cell, rels, relIdCounter);
+          tblXml += `<w:tc><w:tcPr><w:tcW w:w="${colW}" w:type="dxa"/><w:shd w:fill="F1F5F9"/><w:tcMar><w:top w:w="120" w:type="dxa"/><w:bottom w:w="120" w:type="dxa"/><w:left w:w="140" w:type="dxa"/><w:right w:w="140" w:type="dxa"/></w:tcMar></w:tcPr><w:p><w:pPr><w:spacing w:after="0"/><w:rPr><w:b/></w:rPr></w:pPr>${runs}</w:p></w:tc>`;
+        });
+        tblXml += `</w:tr>`;
+
+        // Data Rows
+        dataRows.forEach((dRow, rIdx) => {
+          const cells = dRow.split('|').map(c => c.trim()).filter((c, idx, arr) => idx > 0 && idx < arr.length - 1);
+          const bgFill = (rIdx % 2 === 1) ? 'F8FAFC' : 'FFFFFF';
+          tblXml += `<w:tr>`;
+          cells.forEach(cell => {
+            const runs = parseMarkdownRuns(cell, rels, relIdCounter);
+            tblXml += `<w:tc><w:tcPr><w:tcW w:w="${colW}" w:type="dxa"/><w:shd w:fill="${bgFill}"/><w:tcMar><w:top w:w="100" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/><w:left w:w="140" w:type="dxa"/><w:right w:w="140" w:type="dxa"/></w:tcMar></w:tcPr><w:p><w:pPr><w:spacing w:after="0"/></w:pPr>${runs}</w:p></w:tc>`;
+          });
+          tblXml += `</w:tr>`;
+        });
+
+        tblXml += `</w:tbl>`;
+        bodyXml += tblXml;
+      }
+      continue;
+    }
+
     // Standard Paragraph
     const runs = parseMarkdownRuns(line, rels, relIdCounter);
     bodyXml += `<w:p><w:pPr><w:spacing w:after="160" w:line="276" w:lineRule="auto"/></w:pPr>${runs}</w:p>`;
