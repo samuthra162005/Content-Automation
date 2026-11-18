@@ -146,7 +146,9 @@ illustrations = [
 ]
 
 if __name__ == "__main__":
-    out_dir = "d:/content"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    out_dir = os.path.abspath(os.path.join(base_dir, "..", "2026-10-29", "assets"))
+    os.makedirs(out_dir, exist_ok=True)
     for ill in illustrations:
         filepath = os.path.join(out_dir, ill["filename"])
         create_illustration_card(ill, filepath)

@@ -184,4 +184,6 @@ def create_index_doc(filepath):
     print(f"Created Index Doc: {filepath}")
 
 if __name__ == "__main__":
-    create_index_doc("d:/content/Index_Blog_Best_Places_in_Erode_Fortune_City.docx")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    out_dir = os.path.abspath(os.path.join(base_dir, "..", "2026-10-30"))
+    create_index_doc(os.path.join(out_dir, "Index_Blog_Best_Places_in_Erode_Fortune_City.docx"))

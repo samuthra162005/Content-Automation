@@ -4,7 +4,9 @@ import statistics
 import os
 import sys
 
-sys.path.append(r"d:\content\projects\kanavu-run\generators")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if BASE_DIR not in sys.path:
+    sys.path.append(BASE_DIR)
 from build_run_doc import (
     create_run_document,
     add_title,
@@ -19,8 +21,9 @@ from build_run_doc import (
 )
 from audit_run_doc import audit_run_blog
 
-ASSETS_DIR = r"d:\content\projects\kanavu-run\2026-11-04\assets"
-OUTPUT_DIR = r"d:\content\projects\kanavu-run\2026-11-04"
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "2026-11-04")
+ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 KW2 = "How to Build Marathon Motivation"
 
 def build_perfect_blog2():

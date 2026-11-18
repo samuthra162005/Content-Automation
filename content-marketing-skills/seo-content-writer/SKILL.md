@@ -1,98 +1,52 @@
 ---
 name: seo-content-writer
-description: "Writes SEO-optimized content based on provided keywords and topic"
-  briefs. Creates engaging, comprehensive content following best practices. Use
-  PROACTIVELY for content creation tasks.
+description: "Professional SEO content writing, topic cluster architecture, smart internal linking, visual design, and document automation skill. Follows the 21-section Final Master Architecture."
 metadata:
-  model: sonnet
-risk: unknown
-source: community
+  category: seo-geo
+  domain: content-creation
+  version: 3.0.0
+risk: safe
+source: custom
 ---
 
-## Use this skill when
+# Professional SEO Blog Writing & Topic Cluster Automation System
 
-- Working on seo content writer tasks or workflows
-- Needing guidance, best practices, or checklists for seo content writer
+Executes the end-to-end 21-section professional SEO content workflow:
+`INPUT -> SOURCE RESEARCH -> SEARCH INTENT -> CLUSTER MAPPING -> ORIGINAL DRAFT -> 4-TIER LINKING -> MULTI-VISUAL PLAN -> IMAGE GENERATION -> QUALITY REVIEW -> DOCX AUTOMATION -> SAVE DELIVERABLES`.
 
-## Do not use this skill when
+---
 
-- The task is unrelated to seo content writer
-- You need a different domain or tool outside this scope
+## 1. Core Principles & Rule Precedence
 
-## Instructions
+1. **Hierarchy:** Current prompt > Client brand guidelines (`projects/<client>/...`) > Verified facts & safety > Repository guidelines > Defaults.
+2. **Zero False Promises:** Never promise search rankings, Google AI Overview inclusion, ChatGPT citations, or specific AI-detector scores. Prioritize editorial excellence, verified mechanisms, and genuine human value.
+3. **Research First:** Evaluate 5–10 sources, analyze intent, and identify competitor content gaps before drafting.
+4. **Answer-First Openings:** Answer the main question directly in the very first sentence. Zero routine use of *"Imagine..."*, *"In today's fast-paced digital world..."*, or formulaic fluff.
+5. **Exact Word Count:** Main blog body must strictly be **450–500 words** (programmatically counted, excluding metadata, image captions, and FAQs). Exactly three concise FAQs (15–25 words per answer).
+6. **Dynamic Topic Structures:** Choose from Tutorial (Step-by-Step), Concept Explanation, Comparison, Cost Guide, Troubleshooting, Listicle, or Health/Technical standards.
+7. **Special Brand Rule (Kanavu & Clients):** The article is about the topic, NOT the client brand. Education must dominate (90%+). Brand connection is restricted to 1 concise, natural paragraph near the end. No unsubstantiated superlatives (*"best IT company"*, *"number one"*).
+8. **4-Tier Smart Linking Strategy:**
+   - **Internal Link A (Pillar Blog):** Connected in broader category context.
+   - **Internal Link B (Related Branch Blog):** Contextually placed where the supporting topic is discussed.
+   - **Internal Link C (Verified Service Page):** Supporting commercial step near the end.
+   - **External Link (Authoritative Reference):** Direct supporting citation beside factual claims.
+   - *Meaning-Based Placement:* Distributed across the reader's journey. Zero link clustering at the end; zero links in the opening hook or after FAQs.
+9. **Universal Blog Image Generation Standard:** 2 to 3 distinct 16:9 widescreen visuals per blog (`1920 × 1080`), placed contextually across the article near the H2 section explained. Clean white (`#FFFFFF`) or light neutral background with **large bold titles inside the image itself** (65–90px title, 35–48px main labels, 28–36px supporting labels). Content-type matching (processes, comparisons, architecture loops, feature callouts), effective canvas usage without excessive margins, zero repetition across the same blog, zero invented statistics/prices, and mandatory 12-point visual QA inspection on actual exported images and rendered Word document layouts.
+10. **Word Document Automation:** Always generate and update native Word `.docx` documents in `projects/<brand>/<date>/outputs/` and in the blog directory.
 
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
+---
 
-You are an SEO content writer creating comprehensive, engaging content optimized for search and users.
+## 2. 11-Part Deliverable Architecture
 
-## Focus Areas
-
-- Comprehensive topic coverage
-- Natural keyword integration
-- Engaging introduction hooks
-- Clear, scannable formatting
-- E-E-A-T signal inclusion
-- User-focused value delivery
-- Semantic keyword usage
-- Call-to-action integration
-
-## Content Creation Framework
-
-**Introduction (50-100 words):**
-- Hook the reader immediately
-- State the value proposition
-- Include primary keyword naturally
-- Set clear expectations
-
-**Body Content:**
-- Comprehensive topic coverage
-- Logical flow and progression
-- Supporting data and examples
-- Natural keyword placement
-- Semantic variations throughout
-- Clear subheadings (H2/H3)
-
-**Conclusion:**
-- Summarize key points
-- Clear call-to-action
-- Reinforce value delivered
-
-## Approach
-
-1. Analyze topic and target keywords
-2. Create comprehensive outline
-3. Write engaging introduction
-4. Develop detailed body sections
-5. Include supporting examples
-6. Add trust and expertise signals
-7. Craft compelling conclusion
-
-## Output
-
-**Content Package:**
-- Full article (target word count)
-- Suggested title variations (3-5)
-- Meta description (150-160 chars)
-- Key takeaways/summary points
-- Internal linking suggestions
-- FAQ section if applicable
-
-**Quality Standards:**
-- Original, valuable content
-- 0.5-1.5% keyword density
-- Grade 8-10 reading level
-- Short paragraphs (2-3 sentences)
-- Bullet points for scannability
-- Examples and data support
-
-**E-E-A-T Elements:**
-- First-hand experience mentions
-- Specific examples and cases
-- Data and statistics citations
-- Expert perspective inclusion
-- Practical, actionable advice
-
-Focus on value-first content. Write for humans while optimizing for search engines.
+Every blog project saves 11 discrete files in `projects/<brand>/<date>/<blog-slug>/`:
+1. `seo-brief.md`: Metadata, primary/secondary keywords, search intent, audience profile.
+2. `research-sources.md`: Summary of 5–10 analyzed sources, verified facts vs. assumptions, competitor gaps.
+3. `internal-linking-strategy.md`: Pillar, related branch, service, and external link plan with section placements.
+4. `blog-draft.md`: Publication-ready markdown content (strictly 450–500 words main body).
+5. `seo-metadata.md`: Meta title (50–60 chars), meta description (140–160 chars), primary & secondary keywords.
+6. `faqs.md`: Exactly 3 concise, non-repetitive FAQs (15–25 words each).
+7. `image-prompts.md`: Production-ready prompts for 2 to 3 distinct visuals with on-canvas bold titles.
+8. `visual-plan.md`: Visual concept rationale, placement, dimensions (16:9), filenames, and alt text.
+9. Generated `.jpg` image files (`hero-image.jpg` + secondary diagrams).
+10. `Blog_<Title>.docx`: Native formatted Word document (also copied to `projects/<brand>/<date>/outputs/`).
+11. `content-review.md`: Quality checklist audit, word count verification, Flesch score, and 14-point link audit.

@@ -20,7 +20,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "2026-10-30")
 ASSETS_DIR = os.path.join(PROJECT_ROOT, "2026-10-29", "assets")
-SAMPLES_DIR = os.path.abspath("d:/content/extracted_samples")
+REPO_ROOT = os.path.abspath(os.path.join(PROJECT_ROOT, "..", ".."))
+SAMPLES_DIR = os.path.join(REPO_ROOT, "extracted_samples")
 
 INDEX_BLOG_URL = "https://www.fortunecity.in/blog/best-places-in-erode-for-shopping-food-entertainment-services"
 EXACT_INDEX_TITLE = "Best Places in Erode for Shopping, Food, Entertainment & Services"

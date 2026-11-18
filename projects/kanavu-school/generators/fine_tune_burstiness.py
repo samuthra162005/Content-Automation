@@ -4,7 +4,9 @@ import docx
 import re
 import statistics
 
-sys.path.append(r"d:\content\projects\kanavu-school\generators")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if BASE_DIR not in sys.path:
+    sys.path.append(BASE_DIR)
 from build_kanavu_doc import (
     create_kanavu_document,
     add_title,
@@ -53,8 +55,9 @@ def full_audit(doc):
     stdev = statistics.stdev(sentences) if len(sentences) > 1 else 0
     return pre_faq, faq_words, tot, stdev
 
-OUTPUT_DIR = r"d:\content\projects\kanavu-school\2026-10-31"
-ASSETS_DIR = r"d:\content\projects\kanavu-school\2026-10-31\assets"
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "2026-10-31")
+ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
 INDEX_TITLE = "English Learning and Teaching Guide for Students and Teachers"
 INDEX_URL = "https://school.kanavu.org/resources/english-learning-and-teaching-guide"

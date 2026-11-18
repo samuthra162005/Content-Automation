@@ -1,8 +1,8 @@
 # Deliverable Summary: Ethu Pal (Protruding Teeth) in Children — Final Optimized Blog & SEO Package
 
 **Client / Practice:** Thalir Kids Speciality Dental Clinic, Erode, Tamil Nadu  
-**Deliverable File:** [`Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode_Final.docx`](file:///d:/content/Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode_Final.docx)  
-**Main File (Updated):** [`Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode.docx`](file:///d:/content/Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode.docx)  
+**Deliverable File:** [`Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode_Final.docx`](file:///d:/content/digital-marketing-skills/projects/thalir-kids-dental/2026-10-28/Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode_Final.docx)  
+**Main File (Updated):** [`Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode.docx`](file:///d:/content/digital-marketing-skills/projects/thalir-kids-dental/2026-10-28/Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode.docx)  
 **Artifact Directory Mirror:** [`Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode_Final.docx`](file:///C:/Users/navan/.gemini/antigravity/brain/c65552a8-bf49-479f-9ef7-abe6d8856cae/Ethu_Pal_Protruding_Teeth_Thalir_Kids_Dental_Erode_Final.docx)
 
 ---

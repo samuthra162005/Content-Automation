@@ -4,7 +4,9 @@ import statistics
 import os
 import sys
 
-sys.path.append(r"d:\content\projects\nallore-vattam\generators")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if BASE_DIR not in sys.path:
+    sys.path.append(BASE_DIR)
 from build_nallore_vattam_doc import (
     create_nallore_document,
     add_title,
@@ -18,8 +20,9 @@ from build_nallore_vattam_doc import (
 )
 from doc_audit_helper import audit_doc
 
-ASSETS_DIR = r"d:\content\projects\nallore-vattam\2026-11-04\assets"
-OUTPUT_DIR = r"d:\content\projects\nallore-vattam\2026-11-04"
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "2026-11-04")
+ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 KW1 = "நல்லோர் வட்டம் புதிய பொறுப்பாளர்கள் முகாம்"
 
 def build_perfect_blog1():

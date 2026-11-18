@@ -4,7 +4,9 @@ import docx
 import re
 import statistics
 
-sys.path.append(r"d:\content\projects\kanavu-technologies\generators")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if BASE_DIR not in sys.path:
+    sys.path.append(BASE_DIR)
 from build_kanavu_tech_doc import (
     create_kanavu_document,
     add_title,
@@ -18,8 +20,9 @@ from build_kanavu_tech_doc import (
     add_faqs
 )
 
-OUTPUT_DIR = r"d:\content\projects\kanavu-technologies\2026-11-02"
-ASSETS_DIR = r"d:\content\projects\kanavu-technologies\2026-11-02\assets"
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "2026-11-02")
+ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
 INDEX_TITLE = "Top IT Company in Erode for Career Growth and Technology Services"
 INDEX_URL = "https://tech.kanavu.org/resources/top-it-company-in-erode"

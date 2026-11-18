@@ -17,7 +17,9 @@ from build_kanavu_doc import (
     add_faqs
 )
 
-OUTPUT_DIR = r"d:\content\projects\kanavu-school\2026-10-31"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "2026-10-31")
 ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
 INDEX_TITLE = "English Learning and Teaching Guide for Students and Teachers"

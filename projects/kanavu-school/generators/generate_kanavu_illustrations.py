@@ -1,7 +1,8 @@
 import os
 from PIL import Image, ImageDraw, ImageFont
 
-ASSETS_DIR = r"d:\content\projects\kanavu-school\2026-10-31\assets"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ASSETS_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "2026-10-31", "assets"))
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
 W, H = 1672, 941

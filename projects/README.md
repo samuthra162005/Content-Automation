@@ -7,7 +7,7 @@ This directory organizes all client content creation projects by project name an
 ## 🗂️ Project Directory Structure
 
 ```
-d:\content\projects\
+d:\content\digital-marketing-skills\projects\
 │
 ├── fortune-city-erode/                         # Fortune City Erode Content Cluster
 │   ├── 2026-10-29/                             # Batch 1: Pillar Hub & Infographic Assets
@@ -46,7 +46,7 @@ d:\content\projects\
 
 ## 🧪 Testing Scripts Directory
 
-Located at `d:\content\testing_scripts\`:
+Located at `d:\content\digital-marketing-skills\testing_scripts\`:
 - `audit_docs.py`: Validates word counts, tables, burstiness, and hyperlinks across blog files.
 - `check_keywords.py`: Validates primary keyword placement in introductory paragraphs and H2 subheadings.
 - `list_links.py`: Audits internal/external hyperlinks, verification status, and exact anchor texts.
